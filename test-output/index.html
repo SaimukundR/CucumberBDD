@@ -7,7 +7,7 @@
 
     <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
     <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
-    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="jquery.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -21,7 +21,8 @@
      -->
   </head>
 
-  <body>    <div class="top-banner-root">
+  <body>
+    <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
@@ -50,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\RK\AppData\Local\Temp\testng-eclipse--109090719\testng-customsuite.xml</span>
+                    <span>C:\Users\RK\AppData\Local\Temp\testng-eclipse-1363100789\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -129,19 +130,19 @@
                   <a name="runScenario(&quot;Order placement Experience&quot;, &quot;This feature is used to add products to the cart and place orders&quot;)">
                   </a> <!-- runScenario("Order placement Experience", "This feature is used to add products to the cart and place orders") -->
                   <span class="method-name">runScenario</span>
-                  <span class="parameters">("Order placement Experience","This feature is used to add products to the cart and place orders")</span>
+                  <span class="parameters">("Order placement Experience", "This feature is used to add products to the cart and place orders")</span>
                   <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class=&apos;products&apos;]/div/h4[normalize-space()=&apos;Strawerry - 1/4 Kg&apos;] (tried for 10 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.23.0&apos;, revision: &apos;4df0a231af&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.19&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.90, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\RK\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58946}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58946/devtoo..., se:cdpVersion: 127.0.6533.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 287a05eb850e591ba94f150b37ab0a93
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.100, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\RK\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50652}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50652/devtoo..., se:cdpVersion: 127.0.6533.100, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9696633dc4a629f31f0c57978cfffa3a
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
 	at Utility.GenericUtility.waitUntilElementVisible(GenericUtility.java:26)
 	at PageObjects.Homepage.searchItemIncreaseQuantityAndAddToBasket(Homepage.java:35)
 	at stepDefinitions.HomepageStepDefinitions.user_searches_and_to_the_basket(HomepageStepDefinitions.java:32)
-	at ✽.user searches with Strawerry and 1/4 and 3 to the basket(file:///C:/Users/RK/Desktop/BDD/src/test/java/features/OrderPlacement.feature:8)
+	at ✽.user searches with Strawerry and 1/4 and 3 to the basket(file:///C:/Users/RK/Desktop/Eclipse%20Archive/BDD/src/test/java/features/OrderPlacement.feature:8)
 
 </div> <!-- stack-trace -->
                   <em>
@@ -153,7 +154,7 @@ Session ID: 287a05eb850e591ba94f150b37ab0a93
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\RK\AppData\Local\Temp\testng-eclipse--109090719\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\RK\AppData\Local\Temp\testng-eclipse-1363100789\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -214,12 +215,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'runScenario')
 data.setCell(0, 2, 'runners.TestNGTestrunner2')
-data.setCell(0, 3, 30293);
+data.setCell(0, 3, 20669);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 30 seconds</span>
+              <span class="suite-total-time">Total running time: 20 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -247,18 +248,18 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">runners.TestNGTestrunner2</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
-                <span class="method-name">setUpClass(org.testng.TestRunner@474c9131)</span>
+                <span class="method-name">setUpClass(org.testng.TestRunner@6848a051)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">runScenario("Order placement Experience", "This feature is used to add products to the cart and place orders")</span>
-                <span class="method-start">1113 ms</span>
+                <span class="method-start">1559 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">31416 ms</span>
+                <span class="method-start">22237 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
